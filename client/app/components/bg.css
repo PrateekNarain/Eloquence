@@ -1,0 +1,56 @@
+:root{
+  --bg-900: #071023;
+  --bg-800: #0b1626;
+  --card: #0f2330;
+  --muted: #94a3b8;
+  --accent: #2dd4bf; /* teal */
+  --primary: #60a5fa; /* soft blue */
+  --accent-2: #8b5cf6; /* violet */
+  --danger: #f97316; /* orange */
+}
+
+#background {
+  background-color: var(--bg-900);
+}
+
+.glass-bg {
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+  background-color: var(--bg-800);
+}
+
+.static-bg {
+   background-color: var(--bg-800);
+}
+
+/* Card utility */
+.pro-card{
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.04));
+  border: 1px solid rgba(255,255,255,0.04);
+  box-shadow: 0 6px 18px rgba(2,6,23,0.6);
+  border-radius: 12px;
+}
+
+.muted-text{ color: var(--muted); }
+.accent-text{ color: var(--accent); }
+.primary-text{ color: var(--primary); }
+
+.card-title{ font-weight:600; color: #E6EEF6 }
+
+/* Tooltip style for charts */
+.custom-tooltip{ min-width:180px }
+.custom-tooltip p{ color: #0b1626 }
+
+    #background {
+
+background-color: #0F172A;
+}
+
+
+
+.glass-bg {
+background-color: #0F172A;
+}
+
+.static-bg {
+   background-color: #0F172A;
+}
